@@ -1,4 +1,10 @@
-.bannerText{
-    background-image: url("./images/mainbanner.jpg");
-    height: 543px;
+.bannerText {
+    background-image: url('./images/mainbanner.jpg');
+    background-size: cover; 
+    background-position: center;
+    color: #fff;
+    padding: 20px;
+}
+.bannerHeading {
+    color: blue;
 }
