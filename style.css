@@ -482,10 +482,47 @@ footer .row {
 /* Additional styles for screens up to 414px wide (e.g., portrait mode on iPhone 7 Plus) */
 @media (max-width: 414px) {
     .bannerText {
-        top: 30px; /* Adjust the top margin for better positioning */
-        font-size: 18px; /* Further reduce font size for smaller screens */
+        top: 30px;
+        margin-left: 5%;
+        font-size: 18px;
+    }
+
+    .btnTop {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav {
+        grid-template-columns: repeat(1, auto);
+        margin: 0px;
+    }
+
+    .menuOptionsBG .row {
+        grid-template-columns: repeat(1, 100%);
+        text-align: center;
+    }
+
+    .Services .row {
+        grid-template-columns: repeat(1, 100%);
+        margin: 0;
+    }
+
+    .Expectations .row {
+        grid-template-columns: repeat(1, 100%);
+        text-align: center;
+    }
+
+    .Expectations .col {
+        padding: 20px;
+    }
+
+    .footer .row {
+        grid-template-columns: repeat(1, 100%);
+        font-size: 20px;
     }
 }
+
 
 
 
