@@ -479,6 +479,14 @@ footer .row {
     }
 }
 
+/* Additional styles for screens up to 414px wide (e.g., portrait mode on iPhone 7 Plus) */
+@media (max-width: 414px) {
+    .bannerText {
+        top: 30px; /* Adjust the top margin for better positioning */
+        font-size: 18px; /* Further reduce font size for smaller screens */
+    }
+}
+
 
 
 
