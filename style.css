@@ -195,23 +195,30 @@ footer .row {
     font-size: 25px;
   }
   
+  footer .row .col {
+    display: flex;
+    flex-direction: column; /* Make the columns stack vertically */
+    margin-right: 20px; /* Add right margin for spacing */
+  }
+  
   footer .row .col ul {
     padding: 0px 0px 0px 25px;
-    list-style: none; 
+    list-style: none;
   }
   
   footer .row .col ul li {
     font-size: 20px;
-    display: flex; 
+    display: flex;
     align-items: center;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
   }
   
   footer .row .col ul li::before {
-    content: "\2022";
+    content: "\2022"; /* Use a custom bullet character */
     color: rgb(28, 138, 236);
-    font-size: 40px;
-    margin-right: 10px;
+    font-size: 40px; /* Adjust the font size for the bullet */
+    margin-right: 10px; /* Add spacing between bullet and text */
   }
+
   
   
