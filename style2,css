@@ -1,0 +1,160 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the body */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.btnTop button {
+    margin: 0 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    background-color: #333;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav li:hover {
+    text-decoration: underline;
+}
+
+/* Main banner styles */
+.banner {
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+    max-height: 400px;
+}
+
+/* Banner text styles */
+.bannerText {
+    background-image: url('./images/mainbanner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.bannerHeading1 {
+    color: #00b7ff;
+    font-size: 2.5rem;
+}
+
+.bannerHeading2 {
+    color: #000;
+    font-size: 2rem;
+}
+
+/* Menu options styles */
+.menuOptions {
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.menuOptions h4 {
+    text-align: center;
+}
+
+/* Main content styles */
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.col {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+
+.col h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.col p {
+    color: #333;
+    line-height: 1.5;
+}
+
+.col button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer hr {
+    border-color: #666;
+}
+
+/* Footer section styles */
+.col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.col h4 {
+    color: #fff;
+    margin-top: 10px;
+}
+
+.col li {
+    color: #ccc;
+    margin: 5px 0;
+}
+
+/* Media queries for responsiveness (adjust as needed) */
+@media screen and (max-width: 768px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col {
+        width: 100%;
+    }
+}
