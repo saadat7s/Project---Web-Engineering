@@ -283,64 +283,6 @@ footer .row {
     }
 }
 
-/* Default styles for screens wider than 1200px */
-@media (min-width: 1201px) {
-    .container {
-        margin: 0px 16.7% 0px 16.7%;
-    }
-
-    .bannerText {
-        top: 150px;
-        margin-left: 16.7%;
-        font-size: 45px;
-    }
-
-    .btnTop {
-        justify-content: end;
-    }
-
-    .nav {
-        grid-template-columns: repeat(6, auto);
-        margin: 0px 10% 0px 10%;
-    }
-
-    .menuOptionsBG .row {
-        grid-template-columns: repeat(4, 250px);
-        margin: 0 16.7% 0 16.7%;
-    }
-
-    .Services .row {
-        grid-template-columns: repeat(3, 400px);
-        margin: 0 16.7% 0 16.7%;
-        min-height: 500px;
-    }
-
-    /* Footer styles for screens wider than 1200px */
-    .footer .row {
-        grid-template-columns: repeat(4, 300px);
-        font-size: 25px;
-    }
-
-    .footer .col ul {
-        padding: 0px 0px 0px 25px;
-        list-style: none; 
-    }
-
-    .footer .col ul li {
-        font-size: 20px;
-        display: flex; 
-        align-items: center;
-        margin-bottom: 10px; 
-    }
-
-    .footer .col ul li::before {
-        content: "\2022"; 
-        color: rgb(28, 138, 236);
-        font-size: 40px; 
-        margin-right: 10px; 
-    }
-}
-
 /* Styles for screens up to 1200px wide (e.g., smaller desktops and laptops) */
 @media (max-width: 1200px) {
     .container {
@@ -412,17 +354,6 @@ footer .row {
         margin: 0 5% 0 5%;
     }
 
-    /* Custom styles for the Expectations section on smaller screens */
-    .Expectations .row {
-        grid-template-columns: repeat(1, 100%);
-        text-align: center;
-    }
-
-    .Expectations .col {
-        padding: 20px;
-    }
-
-    /* Footer styles for screens up to 992px */
     .footer .row {
         grid-template-columns: repeat(2, 300px);
         font-size: 25px;
@@ -462,23 +393,12 @@ footer .row {
         margin: 0 5% 0 5%;
     }
 
-    /* Custom styles for the Expectations section on smaller screens */
-    .Expectations .row {
-        grid-template-columns: repeat(1, 100%);
-        text-align: center;
-    }
-
-    .Expectations .col {
-        padding: 20px;
-    }
-
     /* Footer styles for screens up to 768px */
     .footer .row {
         grid-template-columns: repeat(1, 300px);
         font-size: 20px;
     }
 }
-
 
 
 
