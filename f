@@ -1,0 +1,29 @@
+[33mcommit ad788312304fe4b928b39079faed9c78823faf98[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: sickbeoi <saadatullah21@gmail.com>
+Date:   Sun Oct 8 13:15:11 2023 +0500
+
+    Your commit message here
+
+[33mcommit d3e556180b605c86624642c81f4084aba8e0bd2a[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: sickbeoi <saadatullah21@gmail.com>
+Date:   Sun Oct 8 11:37:35 2023 +0500
+
+    Styles the half of the HTML document with the help of CSS and various other tools like bennetfeely, powertoy, clippytool
+
+[33mcommit 9434132446e7eeaf88995ad04754682c06711df8[m
+Author: sickbeoi <saadatullah21@gmail.com>
+Date:   Thu Oct 5 22:17:06 2023 +0500
+
+    Added the main banner to the css file as background image, made the banner text blue and black according to the requirements and worked on the structure in the footer
+
+[33mcommit 0803372cba14730d547ac8c0c8b1d3ba1f0f2391[m
+Author: sickbeoi <saadatullah21@gmail.com>
+Date:   Thu Oct 5 20:55:43 2023 +0500
+
+    Added index.html and styles.css
+
+[33mcommit 7a6396f13f2aa03c35250a06557a5b03720054cb[m
+Author: Saadat <128899957+saadat7s@users.noreply.github.com>
+Date:   Thu Oct 5 12:57:12 2023 +0000
+
+    Initial commit
