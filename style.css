@@ -206,5 +206,32 @@ textarea{
 }
 
 .Expectations .row .col{
-    background-color: rgb(79, 161, 234);";
+    background-color: rgb(79, 161, 234);
 }
+
+footer .row {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    font-size: 25px;
+  }
+  
+  footer .row .col ul {
+    padding: 0px 0px 0px 25px;
+    list-style: none; /* Remove default bullets */
+  }
+  
+  footer .row .col ul li {
+    font-size: 20px;
+    display: flex; /* Use flexbox for vertical alignment */
+    align-items: center; /* Center the text vertically with the bullet */
+    margin-bottom: 10px; /* Add spacing between list items */
+  }
+  
+  footer .row .col ul li::before {
+    content: "\2022"; /* Use a custom bullet character */
+    color: rgb(28, 138, 236);
+    font-size: 40px; /* Adjust the font size for the bullet */
+    margin-right: 10px; /* Add spacing between bullet and text */
+  }
+  
+  
