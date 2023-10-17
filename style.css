@@ -1,9 +1,7 @@
 .banner{
     background-image: url(./images/banner.jpg);
 }
-.bannerHeading {
-    color: blue;
-}
+
 .bannerBox{
     position: relative;
 }
@@ -445,7 +443,12 @@ footer .row {
     .container {
         margin: 0px 5% 0px 5%;
     }
-
+    .bannerHeading1{
+        font-size: 20px;
+    }
+    .bannerHeading2{
+        font-size: 20px;
+    }
     .bannerText {
         top: 50px;
         margin-left: 5%;
@@ -474,6 +477,13 @@ footer .row {
     }
 
     /* Custom styles for the Expectations section on smaller screens */
+    .Expectations {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
     .Expectations .row {
         grid-template-columns: repeat(1, 100%);
         text-align: center;
@@ -481,6 +491,20 @@ footer .row {
 
     .Expectations .col {
         padding: 20px;
+        text-align: center;
+    }
+    .Expectations p{
+        text-align: center ;
+        margin: 10px;
+    }
+    .Expectations .row .col button {
+        margin-top: 10px;
+        display: block;
+        width: 100%; /* Make buttons full width */
+        color: white;
+        background-color: rgb(79, 161, 234);
+        border: 1px solid white;
+        border-radius: 5px; /* Add rounded corners for a touch-friendly look */
     }
 
     /* Footer styles for screens up to 768px */
@@ -497,6 +521,13 @@ footer .row {
         margin-left: 5%;
         font-size: 18px;
     }
+    .bannerHeading1{
+        font-size: 20px;
+    }
+    .bannerHeading2{
+        font-size: 20px;
+    }
+
 
     .btnTop {
         justify-content: center;
