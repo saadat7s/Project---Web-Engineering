@@ -199,12 +199,22 @@ textarea{
     margin-top: 20px;
 
 }
-
+.Expectations .row .col button{
+    margin-top: 10px;
+    display: flex;
+    color: white;
+    background-color: rgb(79, 161, 234);
+    border: 1px solid white;
+}
+footer{
+    max-width: 100%;
+}
 footer .row {
     display: grid;
     grid-template-columns: repeat(4, 300px);
     font-size: 25px;
     width: auto;
+    justify-content: center;
   }
   footer .row .col ul {
     padding: 0px 0px 0px 25px;
@@ -225,7 +235,8 @@ footer .row {
     margin-right: 10px; /* Add spacing between bullet and text */
   }
 
-/* Default styles for screens wider than 1200px */
+
+  /* Default styles for screens wider than 1200px */
 @media (min-width: 1201px) {
     .container {
         margin: 0px 16.7% 0px 16.7%;
@@ -522,10 +533,3 @@ footer .row {
         font-size: 20px;
     }
 }
-
-
-
-
-
-
-  
