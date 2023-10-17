@@ -472,10 +472,19 @@ footer .row {
         grid-template-columns: repeat(2, auto);
         margin: 0px 5% 0px 5%;
     }
+    
 
     .menuOptionsBG .row {
         grid-template-columns: repeat(1, 250px);
         margin: 0 5% 0 5%;
+    }
+    .menuOptionsBG .col {
+        /* Change the clip-path to create a rectangle */
+        clip-path: none;
+        /* Add additional styles if needed */
+        border: 1px solid #ccc; /* Add borders for rectangles, for example */
+        /* Adjust padding or other styles as needed */
+        padding: 15px;
     }
 
     .Services .row {
